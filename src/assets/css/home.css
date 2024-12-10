@@ -1,0 +1,30 @@
+.pt-4 {
+    padding-top: 0rem !important;
+  }
+  
+  .mt-5 {
+    margin-top: 1rem !important;
+  }
+.container {
+    text-align: center;
+  }
+  
+  h1, h3 {
+    margin-top: 20px;
+  }
+  
+  p {
+    margin: 10px 0;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      padding: 0 15px;
+    }
+  }
+  

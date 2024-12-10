@@ -1,0 +1,34 @@
+.navbar {
+    padding-left: 20px!important;
+  }
+  .navbar-toggler{
+    margin-right: 10px;
+  }
+.navbar-custom {
+  padding: 0 15px;
+}
+
+.navbar-custom .navbar-brand {
+  font-weight: bold;
+  color: var(--primary-color);
+}
+
+.navbar-custom .nav-link {
+  font-size: var(--font-size-base);
+  margin-right: 15px;
+}
+
+.navbar-custom .nav-icon {
+  margin-right: 8px;
+  font-size: 1.2rem;
+}
+
+.navbar-custom .navbar-toggler {
+  border-color: #007bff;
+}
+
+@media (max-width: 992px) {
+  .navbar-custom .navbar-collapse {
+    background-color: #f8f9fa;
+  }
+}
